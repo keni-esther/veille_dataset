@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veille Data • Collecte • Nettoyage • Analyse</title>
+    <link rel="stylesheet" href="veille.css">
+</head>
+<body>
+    <header>
+        <h1>📊 Veille Data 2026</h1>
+        <div class="subhead">Collecte · Nettoyage · Analyse</div>
+    </header>
+
+    <div class="container">
+        <!-- Contexte rapide -->
+        <section>
+            <p style="font-size: 1.1rem;"><strong>Contexte 2026 :</strong> 80% du temps des analystes est encore consacré à la préparation des données. L'IA intégrée transforme ces étapes pour recentrer l'humain sur la décision.</p>
+        </section>
+
+        <!-- 1. TENDANCES CLÉS (simples) -->
+        <section>
+            <h2> 3 grandes tendances 2026</h2>
+            <div class="grid-3">
+                <div class="card">
+                    <h3> Décision-first</h3>
+                    <p>Collecte ciblée selon les objectifs métier, fin du "on collecte au cas où".</p>
+                    <span class="badge">Stratégie</span>
+                </div>
+                <div class="card">
+                    <h3> Auto-réparation</h3>
+                    <p>Nettoyage automatisé par IA : détection et correction en continu des anomalies.</p>
+                    <span class="badge">DataOps</span>
+                </div>
+                <div class="card">
+                    <h3> Analyse conversationnelle</h3>
+                    <p>Interroger les données en langage naturel, accessible aux métiers.</p>
+                    <span class="badge">IA générative</span>
+                </div>
+            </div>
+        </section>
+
+        
+     
+
+        <!-- 2. DIFFÉRENCES : AVANT vs 2026 (tableau simple) -->
+        <section>
+            <h2> Différences fondamentales</h2>
+            <table>
+                <thead>
+                    <tr><th>Phase</th><th>Approche traditionnelle</th><th>Approche 2026</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td><strong>Collecte</strong></td><td>Maximiser le volume des données</td><td>Ciblée (décision-first)</td></tr>
+                    <tr><td><strong>Nettoyage</strong></td><td>Manuel (Pandas, scripts)</td><td>Auto-réparation par IA</td></tr>
+                    <tr><td><strong>Analyse</strong></td><td>Dashboards / SQL</td><td>Conversationnelle / agentique</td></tr>
+                    <tr><td><strong>Qualité</strong></td><td>Réactive (après erreur)</td><td>Proactive (anticipation)</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- 3. Focus : l'évolution du nettoyage -->
+        <section>
+            <h2> Nettoyage : ce qui change</h2>
+            <div class="two-col">
+                <div>
+                    <h3>Avant</h3>
+                    <ul>
+                        <li>dropna(), fillna(moyenne)</li>
+                        <li>Détection IQR manuelle</li>
+                        <li>Correction par lots</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>2026</h3>
+                    <ul>
+                        <li>Imputation prédictive</li>
+                        <li>Détection automatique d'anomalies (IA)</li>
+                        <li>Auto-réparation en continu</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Outils représentatifs (liste simple) -->
+        <section>
+            <h2> Outils 2026</h2>
+            <div style="display: flex; flex-wrap: wrap; gap: 1.5rem;">
+                <div><span class="badge" style="background:#d4e1f5;">Snowflake + Cortex</span></div>
+                <div><span class="badge" style="background:#d4e1f5;">ThoughtSpot Agent</span></div>
+                <div><span class="badge" style="background:#d4e1f5;">Dataiku</span></div>
+                <div><span class="badge" style="background:#d4e1f5;">PandasAI</span></div>
+                <div><span class="badge" style="background:#d4e1f5;">Databricks</span></div>
+            </div>
+        </section>
+
+        <!-- 5. RÉSUMÉ (l'essentiel) -->
+        <section>
+            <h2> En résumé</h2>
+            <div class="footnote">
+                <p><strong>Importance :</strong> La qualité proactive et l'IA générative libèrent du temps pour l'analyse à haute valeur. La confiance dans les données devient un avantage concurrentiel.</p>
+                <p style="margin-top: 0.5rem;"><strong>Différence majeure :</strong> On passe d'une logique réactive et manuelle à une logique proactive, automatisée et orientée décision.</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

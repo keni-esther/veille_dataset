@@ -1,0 +1,118 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f5f7fb;
+            color: #1a2639;
+            line-height: 1.5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        header {
+            background: #1e2b3a;
+            color: white;
+            padding: 1.5rem 2rem;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2rem;
+            font-weight: 500;
+        }
+        .subhead {
+            color: #a0b3c9;
+            margin-top: 0.5rem;
+        }
+        section {
+            background: white;
+            border-radius: 8px;
+            padding: 1.8rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #e5e9f0;
+            font-weight: 500;
+        }
+        h3 {
+            font-size: 1.2rem;
+            margin-bottom: 0.8rem;
+            color: #2c3e50;
+        }
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+            margin: 1.5rem 0;
+        }
+        .card {
+            background: #f9fafc;
+            padding: 1.3rem;
+            border-left: 3px solid #3a6ea5;
+            border-radius: 4px;
+        }
+        .badge {
+            background: #e1e8f0;
+            color: #2c3e50;
+            font-size: 0.8rem;
+            padding: 0.2rem 0.6rem;
+            border-radius: 12px;
+            display: inline-block;
+            margin-top: 0.8rem;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            font-size: 0.95rem;
+        }
+        th {
+            background: #eef2f7;
+            text-align: left;
+            padding: 0.8rem;
+            font-weight: 600;
+        }
+        td {
+            padding: 0.8rem;
+            border-bottom: 1px solid #e5e9f0;
+        }
+        .important {
+            font-weight: 600;
+            color: #1e4a6b;
+        }
+        .footnote {
+            background: #eef2f7;
+            padding: 1rem;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            color: #2d3e5f;
+        }
+        footer {
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+            margin: 2rem 0;
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #d8dee9;
+            margin: 1.5rem 0;
+        }
+        .two-col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+        }
+        @media (max-width: 700px) {
+            .grid-3, .two-col {
+                grid-template-columns: 1fr;
+            }
+        }
